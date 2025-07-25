@@ -1,0 +1,20 @@
+[
+  {
+    "nome": "HTML e CSS Básico",
+    "categoria": "Web",
+    "descricao": "Aprenda a criar sites do zero",
+    "link": "https://exemplo.com/html-css"
+  },
+  {
+    "nome": "Curso de JavaScript",
+    "categoria": "Programação",
+    "descricao": "Entenda lógica, DOM e eventos",
+    "link": "https://exemplo.com/javascript"
+  },
+  {
+    "nome": "Inglês Iniciante",
+    "categoria": "Idiomas",
+    "descricao": "Comece do básico no inglês",
+    "link": "https://exemplo.com/ingles"
+  }
+]

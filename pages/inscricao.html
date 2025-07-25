@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="pt-PT">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Inscrição em Curso - CursoHub</title>
+  <link rel="stylesheet" href="../css/styles.css">
+</head>
+
+<body>
+  <!-- Cabeçalho -->
+  <header>
+    <div class="container">
+      <nav>
+        <a href="#" class="logo">CursoHub</a>
+        <ul class="nav-links">
+          <li><a href="../index.html">Home</a></li>
+          <li><a href="#">Inscrição</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Breadcrumb -->
+  <div class="breadcrumb">
+    <div class="container">
+      <a href="../index.html">Início</a> > <strong>Inscrição</strong>
+    </div>
+  </div>
+
+  <!-- Cabeçalho da Página -->
+  <section class="page-header">
+    <div class="container">
+      <h1>Inscreva-se em um Curso</h1>
+      <p>Preencha os dados abaixo para garantir sua vaga no curso desejado.</p>
+    </div>
+  </section>
+
+  <!-- Formulário de Inscrição -->
+  <section class="form-section">
+    <div class="container">
+      <form action="/inscricao" method="POST" class="form-inscricao"
+        style="max-width: 600px; margin: 0 auto; background: #f9f9f9; padding: 2rem; border-radius: 10px;">
+        <div style="margin-bottom: 1rem;">
+          <label for="nome">Nome completo</label><br>
+          <input type="text" id="nome" name="nome" required
+            style="width: 100%; padding: 10px; border-radius: 6px; border: 1px solid #ccc;">
+        </div>
+
+        <div style="margin-bottom: 1rem;">
+          <label for="email">Email</label><br>
+          <input type="email" id="email" name="email" required
+            style="width: 100%; padding: 10px; border-radius: 6px; border: 1px solid #ccc;">
+        </div>
+
+        <div style="margin-bottom: 1rem;">
+          <label for="telefone">Telefone</label><br>
+          <input type="tel" id="telefone" name="telefone" required
+            style="width: 100%; padding: 10px; border-radius: 6px; border: 1px solid #ccc;">
+        </div>
+
+        <div style="margin-bottom: 1rem;">
+          <label for="curso">Centro de Formação</label><br>
+          <select id="curso" name="curso" required
+            style="width: 100%; padding: 10px; border-radius: 6px; border: 1px solid #ccc;">
+            <option value="" disabled selected>Selecione um centro</option>
+            <option value="CFITEL">CFITEL</option>
+            <option value="Mundo da Tecnologia">Mundo da Tecnologia</option>
+            <option value="Visão Juvenil">Visão Juvenil</option>
+          </select>
+        </div>
+
+        <div style="margin-bottom: 1rem;">
+          <label for="curso">Curso desejado</label><br>
+          <select id="curso" name="curso" required
+            style="width: 100%; padding: 10px; border-radius: 6px; border: 1px solid #ccc;">
+            <option value="" disabled selected>Selecione um curso</option>
+            <option value="Corte e Costura">Corte e Costura</option>
+            <option value="Ladrilho e Estuque">Ladrilho e Estuque</option>
+            <option value="Empreendedorismo">Empreendedorismo</option>
+            <option value="Excel Avançado">Excel Avançado</option>
+            <option value="Design Gráfico">Design Gráfico</option>
+            <option value="Contabilidade Geral">Contabilidade Geral</option>
+          </select>
+        </div>
+        <div style="text-align: center; margin-top: 1.5rem;">
+          <button type="submit" class="cta-button" onclick="window.location.href='confirmacao.html'">Enviar
+            Inscrição
+          </button>
+        </div>
+      </form>
+    </div>
+  </section>
+
+  <!-- Rodapé -->
+  <footer>
+    <div class="container">
+      <div style="text-align: center; padding: 0.5rem 0; color: white;">
+        <p>&copy; 2024 <a href="../index.html" style="color: white;">CursoHub</a>. Todos os direitos reservados.
+        </p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="../js/script.js"></script>
+</body>
+
+</html>
